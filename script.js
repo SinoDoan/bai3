@@ -14,3 +14,8 @@ btn2.onclick = function(){
     option2 = toList.selectedOptions[0];
     fromList.add(option2);
 }
+btn2.onclick = function(){
+    let option2 = document.createElement("option");
+    option2 = toList.selectedOptions[0];
+    fromList.add(option2);
+}
